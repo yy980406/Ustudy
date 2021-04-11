@@ -1,0 +1,467 @@
+@import "base.css";
+@import "global.css";
+
+/*头部*/
+#head_box{
+    // 中间导航部分
+    .leftNav{
+        li:nth-child(2){
+            .show{
+                display: none;
+                width: 392px;
+                height: 216px;
+                background: url(../img/add_box_bg.png);
+                margin-top: 32px;
+                margin-left: -55px;
+                z-index: 4;
+                position: relative;
+
+                dd{
+                    float: left;
+                    width: 140px;
+                    margin: 18px 6px 0 30px;
+                    font-size: 14px;
+                    line-height: 14px;
+
+                    .a1{
+                        width: 170px;
+                        display: block;
+                        text-align: left;
+                        font-size: 12px;
+                        line-height: 15px;
+                        position: static;
+                        height: 25px;
+                    }
+
+                    img{
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+
+        .cur1{
+            .show1{
+                background: url("../img/zg_ydxi.png");
+                position: absolute;
+                left: -93px;
+                top: 34px;
+                width: 276px;
+                height: 168px;
+                display: none;
+                padding: 30px 0 10px 0;
+                box-sizing: border-box;
+                justify-content: space-around;
+                text-align: center;
+                z-index: 4;
+
+                // 左边
+                .left{
+                    border-right: 1px dashed #ccc;
+                    width: 45%;
+                    img{
+                        width: 86px;
+                        height: 86px;
+                    }
+                }
+
+                // 右边
+                .right{
+                    width: 45%;
+                    img{
+                        width: 86px;
+                        height: 86px;
+                    }
+                }
+            }
+        }
+    }
+} 
+
+// 视频区域
+#video_box{
+    height: 585px;
+    background-color: #292929;
+
+    // 顶部
+    .top1{
+        height: 50px;
+        font-size: 14px;
+        line-height: 50px;
+        color: #ccc;
+
+        p{
+            float: left;
+        }
+
+        a{
+            float: right;
+            font-size: 12px;
+            color: #999;
+        }
+    }
+
+    // 中间部分
+    .center{
+        height: 485px;
+
+        //左边
+        .left{
+            float: left;
+            width: 860px;
+            height: 485px;
+            position: relative;
+
+            video{
+                width: 860px;
+                height: 485px;
+                background-color: #939796;
+            }
+
+            // 控制按钮的盒子
+            .control{
+                width: 100%;
+                height: 70px;
+                background:rgba(0, 0, 0, .1);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+
+                //控制按钮
+                .btn{
+                    background: url("../img/offcn_icnolh04.png");
+                    width: 21px;
+                    height: 26px;
+                    position: absolute;
+                    left: 20px;
+                    top: 20px;
+                }
+
+                //当前时间
+                .curTime{
+                    position: absolute;
+                    left: 50px;
+                    top: 20px;
+                    font-size: 16px;
+                    color: #fff;
+                }
+
+                // 控制进度的盒子
+                .bar {
+                    position: absolute;
+                    left: 130px;
+                    top: 20px;
+                    width: 550px;
+                    height: 30px;
+
+                    // 总体进度条
+                    .total{
+                        width: 550px;
+                        height: 4px;
+                        background: #be998f;
+                        position: absolute;
+                        top: 10px;
+                    }
+
+                    // 当前位置进度条
+                    .cur{
+                        position: absolute;
+                        width: 0px;
+                        background: green;
+                        height: 4px;
+                        top: 10px;
+                        z-index: 2;
+                    }
+
+                    // 进度条按钮
+                    .ctrol_btn{
+                        position: absolute;
+                        left: -10px;
+                        width: 22px;
+                        height: 22px;
+                        background: url("../img/offcn_icnolh05.png");
+                        z-index: 3;
+                    }
+
+                }
+
+                // 总体的时间
+                .totalTime{
+                    position: absolute;
+                    right: 95px;
+                    top: 18px;
+                    font-size: 16px;
+                    color: #fff;
+                }
+
+            }
+        }
+        // 右边目录
+        .catalog{
+            float: right;
+            width: 340px;
+
+            p{
+                height: 45px;
+                background: #3f3f3f;
+                border-bottom: 1px solid #3f3f3f;
+
+                a{
+                    display: inline-block;
+                    width: 115px;
+                    height: 45px;
+                    font-size: 16px;
+                    color: #999;
+                    background-color: #323232;
+                    text-align: center;
+                    line-height: 45px;
+                }
+            }
+
+            // 列表
+            .list{
+                li{
+                    height: 50px;
+                    line-height: 50px;
+                    padding-left: 20px;
+                    border-bottom: 1px solid #373737;
+                    cursor: pointer;
+                    color: #999;
+                }
+            }
+        }
+
+    }
+
+    // 底部
+    .bottom{
+        height: 45px;
+        li{
+            float: left;
+            height: 45px;
+            line-height: 45px;
+            color: #999;
+            margin-right: 25px;
+
+            a{
+                color: #999;
+                margin-left: 5px;
+            }
+
+            img{
+                vertical-align: middle;
+            }
+
+            // 悬浮显示的div
+            .show{
+                width: 65px;
+                background: #1c1c1c;
+                text-align: center;
+                font-size: 14px;
+                line-height: 34px;
+                color: #fff;
+
+                a{
+                    height: 34px;
+                    width: 100%;
+                    margin-left: 0;
+                    display: block;
+
+                }
+                a:hover {
+                    background: #18B160;
+                }
+            }
+
+
+        }
+
+        // 线路
+        .line{
+            position: relative;
+
+            .li1{
+                position: absolute;
+                top: -70px;
+                left: 0;
+                display: none;
+            }
+        }
+
+        //倍速
+        .speed{
+            position: relative;
+            .li2{
+                position: absolute;
+                top: -208px;
+                left: 0;
+                display: none;
+            }
+        }
+
+
+    }
+}
+
+// 课程和评论区
+#course_box{
+    padding-bottom: 20px;
+    // 课程
+    .course{
+        width: 880px;
+        float: left;
+
+        h3{
+            font-size: 18px;
+            margin: 30px 0 20px 0;
+        }
+        div{
+            float: left;
+            width: 200px;
+            margin-right: 15px;
+            overflow: hidden;
+            background: #f8f8f8;
+            padding-bottom: 15px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 26px;
+
+            img{
+                width: 100%;
+            }
+
+            .title{
+                color: #666;
+                margin-bottom: 5px;
+            }
+
+            .price{
+                span{
+                    color: #ff7223;
+                }
+                em{
+                    color: #18b160;
+                }
+            }
+       }
+    }
+    // 学员评价
+    .primse{
+        float: right;
+        width: 320px;
+        //上
+        .top{
+            margin-top: 20px;
+            // 标题
+            h4{
+                height: 40px;
+                line-height: 40px;
+                font-size: 16px;
+                border-bottom: 1px solid #ccc;
+            }
+
+            // 发表评价
+            .ping{
+                height: 55px;
+                line-height: 55px;
+                font-size: 16px;
+
+                span{
+                    cursor: pointer;
+                    display: inline-block;
+                    width: 21px;
+                    height: 21px;
+                    vertical-align: middle;
+                    background: url("../img/commstar.jpg") no-repeat 0 -21px;
+                }
+
+                .on{
+                    background: url("../img/commstar.jpg") no-repeat 0 0;
+                }
+        
+            }
+
+            // 发送评论
+            .send{
+                height: 60px;
+                border: 1px solid #ccc;
+                position: relative;
+
+                input{
+                    float: left;
+                    height: 40px;
+                    width: 240px;
+                    border: 1px solid #ccc;
+                    outline: none;
+                    border: none;
+                    border-radius: 18px;
+                }
+
+                span{
+                    position: absolute;
+                    left: 205px;
+                    bottom: 0;
+                }
+
+                .btn_send{
+                    float: right;
+                    height: 62px;
+                    width: 60px;
+                    margin-top: -1px;
+                    text-align: center;
+                    line-height: 60px;
+                    color: #fff;
+                    border:none;
+                    background-color: #FF740E;
+                    outline: none;
+                }
+                
+            }
+
+            //匿名
+            .niming{
+                height: 50px;
+                padding-top: 10px;
+                font-size: 14px;
+            }
+
+        }
+
+        // 下边的列表
+        .comment{
+            max-height: 240px;
+            overflow: auto;
+
+            li{
+                padding: 5px 0;
+                border-bottom: 1px dashed #ccc;
+                .user{
+                    img{
+                        vertical-align: middle;
+                        width: 30px;
+                        margin-right: 5px;
+                    }
+
+                    span{
+                        cursor: pointer;
+                        display: inline-block;
+                        width: 21px;
+                        height: 21px;
+                        vertical-align: middle;
+                        background: url("../img/commstar.jpg") no-repeat 0 -21px;
+                    }
+                    .on{
+                        background: url("../img/commstar.jpg") no-repeat 0 0;
+                    }
+                }
+
+                .user_txt{
+                    max-height: 200px;
+                    overflow: auto;
+                    padding-left: 45px;
+                }
+            }
+        }
+    }
+    
+}

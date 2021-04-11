@@ -1,0 +1,14 @@
+[
+    {
+        "src" : "../img/banner_1.jpg",
+        "href" : "http://www.baidu.com"
+    },
+    {
+        "src" : "../img/banner_2.jpg",
+        "href" : "http://www.baidu.com"
+    },
+    {
+        "src" : "../img/banner_3.jpg",
+        "href" : "http://www.baidu.com"
+    }
+]

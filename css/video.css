@@ -1,0 +1,361 @@
+@import "base.css";
+@import "global.css";
+/*头部*/
+#head_box .leftNav li:nth-child(2) .show {
+  display: none;
+  width: 392px;
+  height: 216px;
+  background: url(../img/add_box_bg.png);
+  margin-top: 32px;
+  margin-left: -55px;
+  z-index: 4;
+  position: relative;
+}
+#head_box .leftNav li:nth-child(2) .show dd {
+  float: left;
+  width: 140px;
+  margin: 18px 6px 0 30px;
+  font-size: 14px;
+  line-height: 14px;
+}
+#head_box .leftNav li:nth-child(2) .show dd .a1 {
+  width: 170px;
+  display: block;
+  text-align: left;
+  font-size: 12px;
+  line-height: 15px;
+  position: static;
+  height: 25px;
+}
+#head_box .leftNav li:nth-child(2) .show dd img {
+  vertical-align: middle;
+}
+#head_box .leftNav .cur1 .show1 {
+  background: url("../img/zg_ydxi.png");
+  position: absolute;
+  left: -93px;
+  top: 34px;
+  width: 276px;
+  height: 168px;
+  display: none;
+  padding: 30px 0 10px 0;
+  box-sizing: border-box;
+  justify-content: space-around;
+  text-align: center;
+  z-index: 4;
+}
+#head_box .leftNav .cur1 .show1 .left {
+  border-right: 1px dashed #ccc;
+  width: 45%;
+}
+#head_box .leftNav .cur1 .show1 .left img {
+  width: 86px;
+  height: 86px;
+}
+#head_box .leftNav .cur1 .show1 .right {
+  width: 45%;
+}
+#head_box .leftNav .cur1 .show1 .right img {
+  width: 86px;
+  height: 86px;
+}
+#video_box {
+  height: 585px;
+  background-color: #292929;
+}
+#video_box .top1 {
+  height: 50px;
+  font-size: 14px;
+  line-height: 50px;
+  color: #ccc;
+}
+#video_box .top1 p {
+  float: left;
+}
+#video_box .top1 a {
+  float: right;
+  font-size: 12px;
+  color: #999;
+}
+#video_box .center {
+  height: 485px;
+}
+#video_box .center .left {
+  float: left;
+  width: 860px;
+  height: 485px;
+  position: relative;
+}
+#video_box .center .left video {
+  width: 860px;
+  height: 485px;
+  background-color: #939796;
+}
+#video_box .center .left .control {
+  width: 100%;
+  height: 70px;
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#video_box .center .left .control .btn {
+  background: url("../img/offcn_icnolh04.png");
+  width: 21px;
+  height: 26px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+#video_box .center .left .control .curTime {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  font-size: 16px;
+  color: #fff;
+}
+#video_box .center .left .control .bar {
+  position: absolute;
+  left: 130px;
+  top: 20px;
+  width: 550px;
+  height: 30px;
+}
+#video_box .center .left .control .bar .total {
+  width: 550px;
+  height: 4px;
+  background: #be998f;
+  position: absolute;
+  top: 10px;
+}
+#video_box .center .left .control .bar .cur {
+  position: absolute;
+  width: 0px;
+  background: green;
+  height: 4px;
+  top: 10px;
+  z-index: 2;
+}
+#video_box .center .left .control .bar .ctrol_btn {
+  position: absolute;
+  left: -10px;
+  width: 22px;
+  height: 22px;
+  background: url("../img/offcn_icnolh05.png");
+  z-index: 3;
+}
+#video_box .center .left .control .totalTime {
+  position: absolute;
+  right: 95px;
+  top: 18px;
+  font-size: 16px;
+  color: #fff;
+}
+#video_box .center .catalog {
+  float: right;
+  width: 340px;
+}
+#video_box .center .catalog p {
+  height: 45px;
+  background: #3f3f3f;
+  border-bottom: 1px solid #3f3f3f;
+}
+#video_box .center .catalog p a {
+  display: inline-block;
+  width: 115px;
+  height: 45px;
+  font-size: 16px;
+  color: #999;
+  background-color: #323232;
+  text-align: center;
+  line-height: 45px;
+}
+#video_box .center .catalog .list li {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+  border-bottom: 1px solid #373737;
+  cursor: pointer;
+  color: #999;
+}
+#video_box .bottom {
+  height: 45px;
+}
+#video_box .bottom li {
+  float: left;
+  height: 45px;
+  line-height: 45px;
+  color: #999;
+  margin-right: 25px;
+}
+#video_box .bottom li a {
+  color: #999;
+  margin-left: 5px;
+}
+#video_box .bottom li img {
+  vertical-align: middle;
+}
+#video_box .bottom li .show {
+  width: 65px;
+  background: #1c1c1c;
+  text-align: center;
+  font-size: 14px;
+  line-height: 34px;
+  color: #fff;
+}
+#video_box .bottom li .show a {
+  height: 34px;
+  width: 100%;
+  margin-left: 0;
+  display: block;
+}
+#video_box .bottom li .show a:hover {
+  background: #18B160;
+}
+#video_box .bottom .line {
+  position: relative;
+}
+#video_box .bottom .line .li1 {
+  position: absolute;
+  top: -70px;
+  left: 0;
+  display: none;
+}
+#video_box .bottom .speed {
+  position: relative;
+}
+#video_box .bottom .speed .li2 {
+  position: absolute;
+  top: -208px;
+  left: 0;
+  display: none;
+}
+#course_box {
+  padding-bottom: 20px;
+}
+#course_box .course {
+  width: 880px;
+  float: left;
+}
+#course_box .course h3 {
+  font-size: 18px;
+  margin: 30px 0 20px 0;
+}
+#course_box .course div {
+  float: left;
+  width: 200px;
+  margin-right: 15px;
+  overflow: hidden;
+  background: #f8f8f8;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 26px;
+}
+#course_box .course div img {
+  width: 100%;
+}
+#course_box .course div .title {
+  color: #666;
+  margin-bottom: 5px;
+}
+#course_box .course div .price span {
+  color: #ff7223;
+}
+#course_box .course div .price em {
+  color: #18b160;
+}
+#course_box .primse {
+  float: right;
+  width: 320px;
+}
+#course_box .primse .top {
+  margin-top: 20px;
+}
+#course_box .primse .top h4 {
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+}
+#course_box .primse .top .ping {
+  height: 55px;
+  line-height: 55px;
+  font-size: 16px;
+}
+#course_box .primse .top .ping span {
+  cursor: pointer;
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  vertical-align: middle;
+  background: url("../img/commstar.jpg") no-repeat 0 -21px;
+}
+#course_box .primse .top .ping .on {
+  background: url("../img/commstar.jpg") no-repeat 0 0;
+}
+#course_box .primse .top .send {
+  height: 60px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+#course_box .primse .top .send input {
+  float: left;
+  height: 40px;
+  width: 240px;
+  border: 1px solid #ccc;
+  outline: none;
+  border: none;
+  border-radius: 18px;
+}
+#course_box .primse .top .send span {
+  position: absolute;
+  left: 205px;
+  bottom: 0;
+}
+#course_box .primse .top .send .btn_send {
+  float: right;
+  height: 62px;
+  width: 60px;
+  margin-top: -1px;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  border: none;
+  background-color: #FF740E;
+  outline: none;
+}
+#course_box .primse .top .niming {
+  height: 50px;
+  padding-top: 10px;
+  font-size: 14px;
+}
+#course_box .primse .comment {
+  max-height: 240px;
+  overflow: auto;
+}
+#course_box .primse .comment li {
+  padding: 5px 0;
+  border-bottom: 1px dashed #ccc;
+}
+#course_box .primse .comment li .user img {
+  vertical-align: middle;
+  width: 30px;
+  margin-right: 5px;
+}
+#course_box .primse .comment li .user span {
+  cursor: pointer;
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  vertical-align: middle;
+  background: url("../img/commstar.jpg") no-repeat 0 -21px;
+}
+#course_box .primse .comment li .user .on {
+  background: url("../img/commstar.jpg") no-repeat 0 0;
+}
+#course_box .primse .comment li .user_txt {
+  max-height: 200px;
+  overflow: auto;
+  padding-left: 45px;
+}

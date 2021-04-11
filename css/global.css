@@ -1,0 +1,206 @@
+@import "base.css";
+.type_area {
+  width: 1200px;
+  margin: 0 auto;
+}
+mark {
+  background: none;
+}
+#head_box {
+  height: 60px;
+  border-bottom: 1px solid #e6e6e6;
+  background: #fff;
+}
+#head_box .logo {
+  float: left;
+  width: 220px;
+  padding-top: 15px;
+}
+#head_box .leftNav {
+  width: 630px;
+  padding-top: 18px;
+  margin-left: 30px;
+  float: left;
+}
+#head_box .leftNav li {
+  float: left;
+  width: 90px;
+  height: 30px;
+  position: relative;
+}
+#head_box .leftNav li a {
+  line-height: 30px;
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+  width: 90px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+#head_box .leftNav li a:hover {
+  color: #ff4905;
+}
+#head_box .leftNav li em {
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  background: url("../img/NavIcoActive.jpg") no-repeat;
+  background-size: 100% 100%;
+  z-index: 1;
+  opacity: 0;
+}
+#head_box .leftNav li:hover em {
+  animation: scal 0.5s linear forwards;
+}
+#head_box .rightNav {
+  width: 320px;
+  padding-top: 19px;
+  float: right;
+}
+#head_box .rightNav .eLogin {
+  float: right;
+  padding: 8px 5px 0;
+}
+#head_box .rightNav .eLogin a {
+  color: #666;
+}
+#head_box .rightNav .eLogin a:hover {
+  text-decoration: underline;
+}
+#head_box .rightNav .eTopShopCart {
+  float: right;
+  padding: 8px 10px 0;
+}
+#head_box .rightNav .code {
+  position: relative;
+}
+#head_box .rightNav .code .show {
+  width: 187px;
+  height: 220px;
+  background: url(../img/ujyx_15.png) no-repeat;
+  position: absolute;
+  left: -70px;
+  top: 30px;
+  display: none;
+  z-index: 2;
+}
+#head_box .rightNav .code .show .top {
+  height: 120px;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+#head_box .rightNav .code .show .top img {
+  display: block;
+  width: 69px;
+  height: 69px;
+  float: left;
+  margin-left: 15px;
+}
+#head_box .rightNav .code .show .top .right {
+  float: right;
+  margin-right: 25px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+#head_box .rightNav .code .show .top .right p {
+  margin-bottom: 5px;
+}
+#head_box .rightNav .code .show .bottom {
+  height: 120px;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+#head_box .rightNav .code .show .bottom img {
+  display: block;
+  width: 69px;
+  height: 69px;
+  float: left;
+  margin-left: 15px;
+}
+#head_box .rightNav .code .show .bottom .right {
+  float: right;
+  margin-right: 25px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+#head_box .rightNav .code .show .bottom .right p {
+  margin-bottom: 5px;
+}
+#head_box .rightNav .form {
+  width: 28px;
+  height: 28px;
+  float: right;
+  transition: all 0.3s;
+}
+#head_box .rightNav .form .eSecher {
+  width: 26px;
+  height: 26px;
+  border: 1px solid transparent;
+  border-radius: 13px;
+  position: relative;
+  transition: all 0.3s;
+}
+#head_box .rightNav .form .eSecher .eText {
+  border: none;
+  background: none;
+  width: 0;
+  padding-left: 10px;
+  height: 26px;
+  outline: none;
+}
+#head_box .rightNav .form .eSecher .eSub {
+  border: none;
+  width: 17px;
+  height: 17px;
+  background: url("../img/etk_09.jpg") no-repeat;
+  position: absolute;
+  right: 3px;
+  top: 5px;
+}
+@keyframes scal {
+  25% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  75% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+/*尾部*/
+#foot_box {
+  height: 100px;
+  background: #404144;
+  color: #999;
+  line-height: 28px;
+  padding: 34px 0;
+}
+#foot_box .left {
+  margin-left: 240px;
+  float: left;
+  color: #999;
+  text-align: center;
+  font-size: 12px;
+}
+#foot_box .left a {
+  color: #999;
+}
+#foot_box .left em {
+  margin: 5px;
+}
+#foot_box .right {
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+}

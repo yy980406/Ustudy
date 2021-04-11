@@ -1,0 +1,37 @@
+[
+    {
+        "url" : "../img/cont-1.jpg",
+        "href": "http://xue.ujiuye.com/class-241288/",
+        "course": "web开发",
+        "title":"web开发",
+        "time":"09:00:00"
+    },
+    {
+        "url" : "../img/cont-2.jpg",
+        "href": "http://xue.ujiuye.com/class-241288/",
+        "course": "Linux云计算",
+        "title":"Linux云计算",
+        "time":"11:00:00"
+    },
+    {
+        "url" : "../img/cont-3.jpg",
+        "href": "http://xue.ujiuye.com/class-241288/",
+        "course": "Java开发",
+        "title":"Java开发",
+        "time":"13:00:00"
+    },
+    {
+        "url" : "../img/cont-4.jpg",
+        "href": "http://xue.ujiuye.com/class-241288/",
+        "course": "Python开发",
+        "title":"Python开发",
+        "time":"15:00:00"
+    },
+    {
+        "url" : "../img/cont-5.jpg",
+        "href": "http://xue.ujiuye.com/class-241288/",
+        "course": "软件测试",
+        "title":"软件测试",
+        "time":"17:00:00"
+    }
+]

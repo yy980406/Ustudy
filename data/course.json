@@ -1,0 +1,397 @@
+{
+    "classify1":[
+        {
+            "title":"互联网营销",
+            "list":[
+                {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5T6159327447WOW.jpg?x-oss-process=image/resize,w_285",
+                    "href" : "https://www.baidu.com",
+                    "title" : "互联网营销在此",
+                    "price" : 1000,
+                    "time" : 1
+                },
+                {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 3999,
+                     "time" : 12
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 1999,
+                     "time" : 9
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 999,
+                     "time" : 7
+                 }
+            ]
+        },
+        {
+            "title" : "设计",
+            "list" : [
+                {
+                   "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                   "href" : "https://www.baidu.com",
+                    "title" : "设计在此",
+                    "price" : 1000,
+                    "time" : 1
+                },
+                {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 4999,
+                     "time" : 12
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 5999,
+                     "time" : 10
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 1999,
+                     "time" : 15
+                 }
+            ]
+        },
+        {
+            "title" : "web前端",
+            "list" : [
+                {
+                   "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                   "href" : "https://www.baidu.com",
+                    "title" : "web前端在此",
+                    "price" : 9000,
+                    "time" : 5
+                },
+                {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 3999,
+                     "time" : 9
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 999,
+                     "time" : 7
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 2999,
+                     "time" : 10
+                 }
+            ]
+        },
+        {
+            "title" : "程序开发",
+            "list" : [
+                {
+                   "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                    "title" : "程序开发在此",
+                    "price" : 10000,
+                    "time" : 10
+                },
+                {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 4999,
+                     "time" : 7
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 999,
+                     "time" : 7
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 2999,
+                     "time" : 10
+                 }
+            ]
+        },
+        {
+            "title" : "Office",
+            "list" : [
+                {
+                   "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                    "title" : "Office在此",
+                    "price" : 10000,
+                    "time" : 10
+                },
+                {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 4999,
+                     "time" : 7
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 999,
+                     "time" : 7
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 2999,
+                     "time" : 10
+                 }
+            ]
+        } 
+    ],
+
+    "classify2":[
+        {
+            "title" : "设计",
+            "list" : [
+                {
+                   "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                   "href" : "https://www.baidu.com",
+                    "title" : "设计在此",
+                    "price" : 1000,
+                    "time" : 1
+                },
+                {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 4999,
+                     "time" : 12
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 5999,
+                     "time" : 10
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 1999,
+                     "time" : 15
+                 }
+            ]
+        },
+        {
+            "title" : "web前端",
+            "list" : [
+                {
+                   "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                   "href" : "https://www.baidu.com",
+                    "title" : "web前端在此",
+                    "price" : 9000,
+                    "time" : 5
+                },
+                {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 3999,
+                     "time" : 9
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 999,
+                     "time" : 7
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 2999,
+                     "time" : 10
+                 }
+            ]
+        },
+        {
+            "title" : "程序开发",
+            "list" : [
+                {
+                   "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                    "title" : "程序开发在此",
+                    "price" : 10000,
+                    "time" : 10
+                },
+                {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 4999,
+                     "time" : 7
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 999,
+                     "time" : 7
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 2999,
+                     "time" : 10
+                 }
+            ]
+        },
+        {
+            "title" : "Office",
+            "list" : [
+                {
+                   "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                    "title" : "Office在此",
+                    "price" : 10000,
+                    "time" : 10
+                },
+                {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 4999,
+                     "time" : 7
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 999,
+                     "time" : 7
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 2999,
+                     "time" : 10
+                 }
+            ]
+        }
+    ],
+
+    "classify3":[
+        {
+            "title" : "互联网营销",
+            "list" : [
+                {
+                   "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5T6159327447WOW.jpg?x-oss-process=image/resize,w_285",
+                   "href" : "https://www.baidu.com",
+                    "title" : "互联网营销在此",
+                    "price" : 1000,
+                    "time" : 1
+                },
+                {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 3999,
+                     "time" : 12
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 1999,
+                     "time" : 9
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 999,
+                     "time" : 7
+                 }
+            ]
+        },
+        {
+            "title" : "设计",
+            "list" : [
+                {
+                   "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                   "href" : "https://www.baidu.com",
+                    "title" : "设计在此",
+                    "price" : 1000,
+                    "time" : 1
+                },
+                {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 4999,
+                     "time" : 12
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 5999,
+                     "time" : 10
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 1999,
+                     "time" : 15
+                 }
+            ]
+        },
+        {
+            "title" : "web前端",
+            "list" : [
+                {
+                   "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                   "href" : "https://www.baidu.com",
+                    "title" : "web前端在此",
+                    "price" : 9000,
+                    "time" : 5
+                },
+                {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 3999,
+                     "time" : 9
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 999,
+                     "time" : 7
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 2999,
+                     "time" : 10
+                 }
+            ]
+        },
+        {
+            "title" : "程序开发",
+            "list" : [
+                {
+                   "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                    "title" : "程序开发在此",
+                    "price" : 10000,
+                    "time" : 10
+                },
+                {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 4999,
+                     "time" : 7
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 999,
+                     "time" : 7
+                 },
+                 {
+                    "src" : "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                     "title" : "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班",
+                     "price" : 2999,
+                     "time" : 10
+                 }
+            ]
+        }
+      
+    ]
+    
+}

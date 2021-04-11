@@ -1,0 +1,540 @@
+@import "base.css";
+@import "global.css";
+/*头部*/
+#head_box {
+  /* 滚动条 */
+  /* 滚动滑块 */
+  /* 滚动条轨道 */
+}
+#head_box .leftNav li:nth-child(2) .show {
+  display: none;
+  width: 392px;
+  height: 216px;
+  background: url(../img/add_box_bg.png);
+  margin-top: 32px;
+  margin-left: -55px;
+  position: absolute;
+  z-index: 2;
+}
+#head_box .leftNav li:nth-child(2) .show dd {
+  float: left;
+  width: 140px;
+  margin: 18px 6px 0 30px;
+  font-size: 14px;
+  line-height: 14px;
+}
+#head_box .leftNav li:nth-child(2) .show dd .a1 {
+  width: 170px;
+  display: block;
+  text-align: left;
+  font-size: 12px;
+  line-height: 15px;
+  position: static;
+  height: 25px;
+}
+#head_box .leftNav li:nth-child(2) .show dd img {
+  vertical-align: middle;
+}
+#head_box .leftNav .cur1 .show1 {
+  background: url("../img/zg_ydxi.png");
+  position: absolute;
+  left: -93px;
+  top: 34px;
+  width: 276px;
+  height: 168px;
+  display: none;
+  padding: 30px 0 10px 0;
+  box-sizing: border-box;
+  justify-content: space-around;
+  text-align: center;
+  z-index: 10;
+}
+#head_box .leftNav .cur1 .show1 .left {
+  border-right: 1px dashed #ccc;
+  width: 45%;
+}
+#head_box .leftNav .cur1 .show1 .left img {
+  width: 86px;
+  height: 86px;
+}
+#head_box .leftNav .cur1 .show1 .right {
+  width: 45%;
+}
+#head_box .leftNav .cur1 .show1 .right img {
+  width: 86px;
+  height: 86px;
+}
+#head_box .aside {
+  height: 523px;
+  width: 230px;
+  overflow: hidden;
+  position: absolute;
+  background: #ff4a00;
+  left: 30px;
+  top: 60px;
+  opacity: 0.8;
+  z-index: 10;
+  overflow-y: scroll;
+}
+#head_box .aside .list {
+  margin: 10px 15px;
+}
+#head_box .aside .list li {
+  margin-bottom: 20px;
+}
+#head_box .aside .list li:last-child {
+  margin-bottom: 0;
+}
+#head_box .aside .list li h2 a {
+  font-size: 16px;
+  line-height: 36px;
+  color: #fff;
+}
+#head_box .aside .list li h2 a:hover {
+  text-decoration: underline;
+}
+#head_box .aside .list li p {
+  width: 210px;
+}
+#head_box .aside .list li p a {
+  font-size: 12px;
+  color: #fff;
+  line-height: 20px;
+  margin-right: 10px;
+}
+#head_box .aside .list li p a:hover {
+  text-decoration: underline;
+}
+#head_box .aside .list li p .cur {
+  margin-right: 60px;
+}
+#head_box .aside::-webkit-scrollbar {
+  width: 3px;
+  background-color: #EAEEF5;
+  border-radius: 3px;
+}
+#head_box .aside::-webkit-scrollbar-thumb {
+  width: 3px;
+  background-color: #FFDE00;
+  border-radius: 3px;
+}
+#head_box .aside::-webkit-scrollbar-track {
+  width: 3px;
+  background-color: #EAEEF5;
+  border-radius: 3px;
+  overflow: hidden;
+}
+/*banner部分*/
+#banner_box {
+  height: 393px;
+  position: relative;
+  background-color: #fff;
+}
+#banner_box .banner {
+  width: 100%;
+  height: 393px;
+}
+#banner_box .banner ul {
+  width: 100%;
+  height: 393px;
+  position: relative;
+}
+#banner_box .banner ul li {
+  width: 100%;
+  height: 393px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+#banner_box .banner ul li a {
+  width: 100%;
+  height: 393px;
+  display: block;
+}
+#banner_box .banner ul li:nth-child(1) {
+  background: url("../img/banner_1.jpg") no-repeat 50%;
+  opacity: 1;
+}
+#banner_box .type_area {
+  position: relative;
+  top: -393px;
+  height: 393px;
+}
+#banner_box .type_area .btns span {
+  position: absolute;
+  top: 45%;
+  width: 40px;
+  height: 60px;
+  line-height: 60px;
+  background: #000;
+  opacity: 0.4;
+  color: #fff;
+  font-size: 36px;
+  z-index: 10;
+  display: none;
+}
+#banner_box .type_area .btns span.right {
+  right: 0;
+}
+#banner_box .type_area .btns span.left {
+  left: 231px;
+}
+#banner_box .type_area .dot {
+  position: absolute;
+  left: 55%;
+  bottom: 20px;
+  width: 80px;
+  height: 20px;
+  z-index: 10;
+}
+#banner_box .type_area .dot .span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 4px;
+}
+.showList {
+  width: 960px;
+  height: 101px;
+  margin-left: 265px;
+  background: #fff;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+.showList li {
+  width: 238px;
+  height: 81px;
+  float: left;
+  border-right: 2px dashed #f1f1f1;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.showList li:last-child {
+  border-right: none;
+}
+#live_box {
+  margin-top: 40px;
+}
+#live_box .top {
+  height: 80px;
+}
+#live_box .top h2 {
+  float: left;
+  color: #333;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 80px;
+}
+#live_box .top a {
+  float: right;
+  color: #999;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+#live_box .top i {
+  color: red;
+  font-size: 12px;
+}
+#live_box .live {
+  height: 350px;
+  background: #fff;
+}
+#live_box .live .left {
+  width: 650px;
+  height: 350px;
+  float: left;
+}
+#live_box .live .left .video {
+  position: relative;
+  width: 650px;
+  height: 350px;
+  background: #333;
+}
+#live_box .live .left .video li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+#live_box .live .left .video li:first-child {
+  display: block;
+}
+#live_box .live .left .video li img {
+  width: 650px;
+  height: 350px;
+}
+#live_box .live .left .video li span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 15px 50px;
+  opacity: 0.7;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 30px;
+  margin: -30px 0 0 -90px;
+  background: url(../img/ujyx_19.png) no-repeat 25px center;
+  background-color: #000;
+}
+#live_box .live .left .video li p {
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #c9c9c9;
+  background: #000;
+  opacity: 0.6;
+  font-size: 16px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+#live_box .live .right {
+  float: right;
+  width: 550px;
+  height: 350px;
+}
+#live_box .live .right .list {
+  height: 100%;
+  padding: 10px 0;
+  box-sizing: border-box;
+  background: url(../img/ujyx_24.jpg) repeat-y 50px top;
+}
+#live_box .live .right .list li {
+  height: 60px;
+  margin-bottom: 2px;
+}
+#live_box .live .right .list li div {
+  float: left;
+  width: 78px;
+  height: 50px;
+  padding-left: 50px;
+  padding-top: 10px;
+  margin-left: 35px;
+  background: url(../img/ujyx_19.png) no-repeat 8px center;
+}
+#live_box .live .right .list li div span {
+  color: #ff4d00;
+  line-height: 20px;
+}
+#live_box .live .right .list li div i {
+  color: #666;
+  font-size: 16px;
+  line-height: 22px;
+}
+#live_box .live .right .list li h6 {
+  float: left;
+  line-height: 60px;
+  font-size: 16px;
+  color: #444;
+  margin-left: 20px;
+}
+#live_box .live .right .list li:hover {
+  cursor: pointer;
+  background: #fff7f3;
+}
+#live_box .live .right .list li:hover div {
+  background: url(../img/ujyx_20.png) no-repeat 8px center;
+}
+#live_box .live .right .list li:hover span {
+  color: #ff4a00;
+}
+#live_box .live .right .list li:hover h6 {
+  color: #ff4a00;
+}
+#course_box .top {
+  height: 80px;
+}
+#course_box .top h2 {
+  float: left;
+  color: #333;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 80px;
+}
+#course_box .top .list {
+  float: left;
+  height: 72px;
+  margin-left: 60px;
+}
+#course_box .top .list li {
+  float: left;
+  margin-top: 28px;
+  padding-bottom: 6px;
+  font-size: 16px;
+  color: #666666;
+  margin-right: 25px;
+  cursor: pointer;
+}
+#course_box .top .list li.on {
+  border-bottom: 2px solid #ff4a00;
+  color: #ff4a00;
+}
+#course_box .bottom .course_list {
+  display: none;
+}
+#course_box .bottom .course_list li {
+  float: left;
+  width: 280px;
+  height: 285px;
+  background-color: white;
+  margin: 0px 20px 22px 0px;
+}
+#course_box .bottom .course_list li img {
+  height: 161px;
+  width: 100%;
+}
+#course_box .bottom .course_list li .title {
+  font-size: 14px;
+  margin-top: 12px;
+  padding: 0px 10px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+#course_box .bottom .course_list li .price {
+  color: #ff4d00;
+  font-size: 18px;
+  float: left;
+}
+#course_box .bottom .course_list li .time {
+  float: right;
+  font-size: 14px;
+  color: #fa7a23;
+  padding: 2px 6px;
+  background: #ffefe8;
+}
+#course_box .bottom .show {
+  display: block;
+}
+#cheap_box .top {
+  height: 80px;
+}
+#cheap_box .top h2 {
+  float: left;
+  color: #333;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 80px;
+}
+#cheap_box .top .list {
+  float: left;
+  height: 72px;
+  margin-left: 60px;
+}
+#cheap_box .top .list li {
+  float: left;
+  margin-top: 28px;
+  padding-bottom: 6px;
+  font-size: 16px;
+  color: #666666;
+  margin-right: 25px;
+  cursor: pointer;
+}
+#cheap_box .top .list li.on {
+  border-bottom: 2px solid #ff4a00;
+  color: #ff4a00;
+}
+#cheap_box .bottom .course_list {
+  display: none;
+}
+#cheap_box .bottom .course_list li {
+  float: left;
+  width: 280px;
+  height: 285px;
+  background-color: white;
+  margin: 0px 20px 22px 0px;
+}
+#cheap_box .bottom .course_list li img {
+  height: 161px;
+  width: 100%;
+}
+#cheap_box .bottom .course_list li .title {
+  font-size: 14px;
+  margin-top: 12px;
+  padding: 0px 10px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+#cheap_box .bottom .course_list li .price {
+  color: #ff4d00;
+  font-size: 18px;
+  float: left;
+}
+#cheap_box .bottom .course_list li .time {
+  float: right;
+  font-size: 14px;
+  color: #fa7a23;
+  padding: 2px 6px;
+  background: #ffefe8;
+}
+#cheap_box .bottom .show {
+  display: block;
+}
+#face_box .top {
+  height: 80px;
+}
+#face_box .top h2 {
+  float: left;
+  color: #333;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 80px;
+}
+#face_box .top .list {
+  float: left;
+  height: 72px;
+  margin-left: 60px;
+}
+#face_box .top .list li {
+  float: left;
+  margin-top: 28px;
+  padding-bottom: 6px;
+  font-size: 16px;
+  color: #666666;
+  margin-right: 25px;
+  cursor: pointer;
+}
+#face_box .top .list .on {
+  border-bottom: 2px solid #ff4a00;
+  color: #ff4a00;
+}
+#face_box .bottom .course_list {
+  display: none;
+}
+#face_box .bottom .course_list li {
+  float: left;
+  width: 280px;
+  height: 285px;
+  background-color: white;
+  margin: 0px 20px 22px 0px;
+}
+#face_box .bottom .course_list li img {
+  height: 161px;
+  width: 100%;
+}
+#face_box .bottom .course_list li .title {
+  font-size: 14px;
+  margin-top: 12px;
+  padding: 0px 10px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+#face_box .bottom .course_list li .price {
+  color: #ff4d00;
+  font-size: 18px;
+  float: left;
+}
+#face_box .bottom .course_list li .time {
+  float: right;
+  font-size: 14px;
+  color: #fa7a23;
+  padding: 2px 6px;
+  background: #ffefe8;
+}
+#face_box .bottom .show {
+  display: block;
+}

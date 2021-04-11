@@ -1,0 +1,252 @@
+@import "base.css";
+
+// 版心
+.type_area{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+//去除mark默认样式
+mark{
+    background: none;
+}
+
+//头部
+#head_box{
+    height: 60px;
+    border-bottom: 1px solid #e6e6e6;
+    background: #fff;
+
+    //logo
+    .logo{
+        float: left;
+        width: 220px;
+        padding-top: 15px;
+    }
+
+    //中间的导航栏
+    .leftNav{
+        width: 630px;
+        padding-top: 18px;
+        margin-left: 30px;
+        float: left;
+
+        li{
+            float: left;
+            width: 90px;
+            height: 30px;
+            position: relative;
+
+            a{
+                line-height: 30px;
+                color: #666;
+                font-size: 16px;
+                text-align: center;
+                width: 90px;
+                height: 30px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 2;
+            }
+
+            a:hover{
+                color: #ff4905;
+            }
+
+            em{
+                position: absolute;
+                width: 90px;
+                height: 30px;
+                background: url("../img/NavIcoActive.jpg") no-repeat;
+                background-size: 100% 100%;
+                z-index : 1;
+                opacity: 0;
+            }
+        }
+
+        li:hover em{
+            animation: scal .5s linear forwards;
+        }
+    }
+
+    //右边的导航栏
+    .rightNav{
+        width : 320px;
+        padding-top: 19px;
+        float: right;
+
+        //注册登录
+        .eLogin{
+            float: right;
+            padding: 8px 5px 0;
+
+            a{
+                color: #666;
+            }
+
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+
+        //二维码购物车
+        .eTopShopCart{
+            float: right;
+            padding: 8px 10px 0;
+        }
+
+        //二维码
+        .code{
+            position: relative;
+
+            .show{
+                width: 187px;
+                height: 220px;
+                background: url(../img/ujyx_15.png) no-repeat;
+                position: absolute;
+                left: -70px;
+                top: 30px;
+                display: none;
+                z-index: 2;
+
+                .top{
+                    height: 120px;
+                    padding-top: 30px;
+                    box-sizing: border-box;
+
+                    img{
+                        display: block;
+                        width: 69px;
+                        height: 69px;
+                        float: left;
+                        margin-left: 15px;
+                    }
+
+                    .right{
+                        float: right;
+                        margin-right: 25px;
+                        padding-top: 10px;
+                        box-sizing: border-box;
+                        p{
+                            margin-bottom: 5px;
+                        }
+                    }
+                }
+
+                .bottom{
+                    height: 120px;
+                    padding-top: 15px;
+                    box-sizing: border-box;
+
+                    img{
+                        display: block;
+                        width: 69px;
+                        height: 69px;
+                        float: left;
+                        margin-left: 15px;
+                    }
+
+                    .right{
+                        float: right;
+                        margin-right: 25px;
+                        padding-top: 10px;
+                        box-sizing: border-box;
+                        p{
+                            margin-bottom: 5px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        // 搜索的表单
+        .form{
+            width: 28px;
+            height: 28px;
+            float: right;
+            transition: all 0.3s;
+
+            .eSecher{
+                width : 26px;
+                height : 26px;
+                border : 1px solid transparent;
+                border-radius : 13px;
+                position : relative;
+                transition : all 0.3s;
+
+                .eText{
+                    border : none;
+                    background: none;
+                    width: 0;
+                    padding-left: 10px;
+                    height: 26px;
+                    outline: none;
+                }
+
+                .eSub{
+                    border : none;
+                    width : 17px;
+                    height : 17px;
+                    background: url("../img/etk_09.jpg") no-repeat;
+                    position : absolute;
+                    right : 3px;
+                    top : 5px;
+                }
+            }
+        }
+    }
+}
+
+//头部中间导航动画
+@keyframes scal {
+    25% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    75% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/*尾部*/
+#foot_box{
+    height: 100px;
+    background: #404144;
+    color: #999;
+    line-height: 28px;
+    padding: 34px 0;
+
+    .left{
+        margin-left: 240px;
+        float: left;
+        color: #999;
+        text-align: center;
+        font-size: 12px;
+
+        a{
+            color: #999;
+        }
+
+        em{
+            margin: 5px;
+        }
+    }
+
+    .right{
+        float: left;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+} 
+
